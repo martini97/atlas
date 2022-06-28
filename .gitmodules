@@ -1,3 +1,6 @@
 [submodule "import-map-deployer"]
 	path = import-map-deployer
 	url = git@github.com:single-spa/import-map-deployer.git
+[submodule "root-config"]
+	path = root-config
+	url = git@github.com:martini97/atlas-root-config.git

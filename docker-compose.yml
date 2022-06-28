@@ -9,3 +9,14 @@ services:
     volumes:
       - ./deployer-config.json:/www/config.json
       - ./import-map:/www/import-map
+
+  root-config:
+    build:
+      context: ./root-config/
+    ports:
+      - "8080:9000"
+    volumes:
+      - ./root-config:/app
+    stdin_open: true
+    environment:
+      CHOKIDAR_USEPOLLING: true
