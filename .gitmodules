@@ -1,0 +1,3 @@
+[submodule "import-map-deployer"]
+	path = import-map-deployer
+	url = git@github.com:single-spa/import-map-deployer.git

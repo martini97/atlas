@@ -1,0 +1,11 @@
+version: "3.0"
+
+services:
+  deployer:
+    build:
+      context: ./import-map-deployer/
+    ports:
+      - 5000:5000
+    volumes:
+      - ./deployer-config.json:/www/config.json
+      - ./import-map:/www/import-map
