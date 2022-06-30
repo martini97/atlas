@@ -7,3 +7,6 @@
 [submodule "theseus"]
 	path = theseus
 	url = git@github.com:martini97/atlas-theseus.git
+[submodule "cerberus"]
+	path = cerberus
+	url = git@github.com:martini97/atlas-cerberus.git

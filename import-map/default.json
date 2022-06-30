@@ -9,6 +9,7 @@
     "@single-spa/welcome": "https://unpkg.com/single-spa-welcome/dist/single-spa-welcome.js",
     "@single-spa/welcome/": "https://unpkg.com/single-spa-welcome/dist/",
     "@olympus/root-config": "//0.0.0.0:8080/olympus-root-config.js",
-    "@olympus/theseus": "//0.0.0.0:8081/olympus-theseus.js"
+    "@olympus/theseus": "//0.0.0.0:8081/olympus-theseus.js",
+    "@olympus/cerberus": "//0.0.0.0:8082/olympus-cerberus.js"
   }
 }

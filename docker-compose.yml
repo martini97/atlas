@@ -31,3 +31,14 @@ services:
     stdin_open: true
     environment:
       CHOKIDAR_USEPOLLING: true
+
+  cerberus:
+    build:
+      context: ./cerberus/
+    ports:
+      - "8082:8080"
+    volumes:
+      - ./cerberus:/app
+    stdin_open: true
+    environment:
+      CHOKIDAR_USEPOLLING: true
