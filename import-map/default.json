@@ -8,6 +8,7 @@
     "single-spa/": "https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/",
     "@single-spa/welcome": "https://unpkg.com/single-spa-welcome/dist/single-spa-welcome.js",
     "@single-spa/welcome/": "https://unpkg.com/single-spa-welcome/dist/",
-    "@olympus/root-config": "//0.0.0.0:8080/olympus-root-config.js"
+    "@olympus/root-config": "//0.0.0.0:8080/olympus-root-config.js",
+    "@olympus/theseus": "//0.0.0.0:8081/olympus-theseus.js"
   }
 }

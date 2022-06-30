@@ -4,3 +4,6 @@
 [submodule "root-config"]
 	path = root-config
 	url = git@github.com:martini97/atlas-root-config.git
+[submodule "theseus"]
+	path = theseus
+	url = git@github.com:martini97/atlas-theseus.git
