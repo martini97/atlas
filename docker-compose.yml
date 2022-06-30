@@ -20,6 +20,8 @@ services:
     stdin_open: true
     environment:
       CHOKIDAR_USEPOLLING: true
+      WEBPACK_HOST: "0.0.0.0"
+      WEBPACK_PORT: "8080"
 
   theseus:
     build:
@@ -31,6 +33,8 @@ services:
     stdin_open: true
     environment:
       CHOKIDAR_USEPOLLING: true
+      WEBPACK_WEBSOCKET_HOST: "0.0.0.0"
+      WEBPACK_WEBSOCKET_PORT: "8081"
 
   cerberus:
     build:
@@ -42,3 +46,5 @@ services:
     stdin_open: true
     environment:
       CHOKIDAR_USEPOLLING: true
+      WEBPACK_WEBSOCKET_HOST: "0.0.0.0"
+      WEBPACK_WEBSOCKET_PORT: "8082"

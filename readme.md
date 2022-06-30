@@ -22,6 +22,24 @@ From the available frameworks, I picked this one due to the availability of docu
 other frameworks seemed scarce, and this framework also seemed to follow a pattern that I
 could easily wrap my head around.
 
+## Pros
+
+### Immediate rollbacks
+
+Following the pattern in this repo, we can deploy our micro-frontends into a CDN, keeping the
+last N versions, and in case there's a bad deploy we can rollbacks using the import-map-deployer,
+with a simple `PATCH` to it's API we can point the deployed root app to an older version (as long
+as it's still on the CDN or exposed) and the rollback will take effect as soon as the user refresh
+the page.
+
+### Better Development Setup
+
+Instead of the developer having to spin up the full environment, handling authentication issues,
+manually editing cookies, all they would have to do is spin up their micro-frontend, open the
+test/staging instance, enable the devtools and override their application with the local version.
+They wouldn't even have to worry about running other micro-frontends as they can use the version
+running on the environment.
+
 ## To Do
 
 There are some smaller issues that I need to investigate:
