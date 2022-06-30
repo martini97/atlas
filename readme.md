@@ -26,7 +26,7 @@ could easily wrap my head around.
 
 There are some smaller issues that I need to investigate:
 
-### [ ] continuos restart
+### [ ] continuous restart
 
 When running locally the pages seems to do random refreshes, it's not a major issue but it
 will impact negatively on developer experience.
@@ -38,7 +38,7 @@ have separate instances of it, it could crash the page. I have not validated thi
 it seems that it's possible to set a global version of it, but this would force all
 micro-frontends to use the same version of it.
 
-(See more here)[https://github.com/filoxo/single-spa-example-shared-styled-components]
+[See more here](https://github.com/filoxo/single-spa-example-shared-styled-components)
 
 ### [ ] hot reload
 
